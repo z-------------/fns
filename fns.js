@@ -2,6 +2,7 @@
 
 const fns = function(types, func) {
   return function(...args) {
+    if (types.length !== args.length) throw RangeError(`Wrong number of arguments: expected ${types.length}, got ${args.length}.`);
     for (let i = 0, l = args.length; i < l; ++i) {
       const arg = args[i];
       let argConstrName = arg.constructor.name;
