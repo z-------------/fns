@@ -1,0 +1,13 @@
+{
+  "name": "fns",
+  "version": "0.0.1",
+  "main": "fns.js",
+  "author": "Zack Guard <zacharyguard@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1"
+  }
+}
